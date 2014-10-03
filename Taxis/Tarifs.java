@@ -1,14 +1,46 @@
 package Taxis;
 
 public class Tarifs {
-	int dep;
-	double priseCharge;
-	double ARJS;
-	double ASJS;
-	double THJS;
-	double TKARND;
-	double TKASND;
-	double THND;
+	private int dep;
+	private double priseCharge;
+	private double ARJS;
+	private double ASJS;
+	private double THJS;
+	private double TKARND;
+	private double TKASND;
+	private double THND;
+	
+	public int getDep(){
+		return dep;
+	}
+	
+	public double getPriseCharge(){
+		return priseCharge;
+	}
+	
+	public double getARJS(){
+		return ARJS;
+	}
+	
+	public double getASJS(){
+		return ASJS;
+	}
+	
+	public double getTHJS(){
+		return THJS;
+	}
+	
+	public double getTKARND(){
+		return TKARND;
+	}
+	
+	public double getTKASND(){
+		return TKASND;
+	}
+	
+	public double getTHND(){
+		return THND;
+	}
 	
 	// Constructeur par défaut
 	public Tarifs(){
@@ -24,7 +56,6 @@ public class Tarifs {
 	
 	// Constructeur avec paramètre
 	public Tarifs(int dept, double pC, double arjs, double asjs, double thjs, double tkarnd, double tkasnd, double thnd){
-		System.out.println("Selection du département !");
 		dep = dept;
 		priseCharge = pC;
 		ARJS = arjs;
