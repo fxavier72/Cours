@@ -14,24 +14,48 @@ public class saisie {
 		return dep;
 	}
 	
+	public void setDep(int departement) {
+		this.dep = departement;
+	}
+	
 	public int getKil(){
 		return kil;
+	}
+	
+	public void setKil(int km) {
+		this.kil = km;
 	}
 	
 	public int getMinutes(){
 		return minutes;
 	}
 	
+	public void setMinutes(int duree) {
+		this.minutes = duree;
+	}
+	
 	public char getTypeParcour(){
 		return typeParcour;
+	}
+	
+	public void setTypeParcour(char typeParcour) {
+		this.typeParcour = typeParcour;
 	}
 	
 	public String getJour(){
 		return jour;
 	}
 	
+	public void setJour(String jour) {
+		this.jour = jour;
+	}
+	
 	public String getHeure(){
 		return heure;
+	}
+	
+	public void setHeure(String heure) {
+		this.heure = heure;
 	}
 	
 	public void Saisie(){
